@@ -7,8 +7,5 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> price=49
 >>> myorder= "I want {} pieces of item number {} for {:.5f} dollars."
 >>> print(myorder.format(quatity,itemno,price))
-Traceback (most recent call last):
-  File "<pyshell#5>", line 1, in <module>
     print(myorder.format(quatity,itemno,price))
-NameError: name 'quatity' is not defined
->>> 
+
